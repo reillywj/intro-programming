@@ -57,7 +57,8 @@ anagrams.each_value{|value| p value}
 
 #Number 7
 exercise_number 7
+puts "The difference between the two hashes is that 'x:' is a symbol and 'x' is the string 'hi there'"
 
 #Number 8
 exercise_number 8
-
+puts "Answer: B"
