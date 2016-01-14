@@ -34,3 +34,50 @@
 
 #Exercise 1 done in irb
 
+
+#File Classes
+#Files rule everything
+#some make up programs and others will be inputs/outputs of programs we work on
+#comes down to the right stuff being in the right kind of files in the right place
+#right kind-> type of file or file format/extension
+#right place-> located in a recognizable directory structure/path
+
+#File class is a subclass of IO
+#IO responsible for representing bidirectional streams, such as STDOUT, STDIN, STDERR
+
+#Dir shares some of File's methods, but is not an IO stream
+#Pathname class exposes pretty much all of the methods of File and Dir, benefit of using Pathname declared as instance of it and access the class methods of File and Dir on the instance object
+#depending on Ruby version, may need to require Pathname before you can use it
+
+#Exercise 2 done in irb -> using Dir and Pathname
+
+
+
+#Working with file formats
+#CSV and xls/xlsx
+#used for importing and exporting tabular data commonly found in spreadsheet applications
+#xls refers to MS Excel format
+#for the purpose of this example, forcus is on simple spreasheets and not advanced features like charts, formulas, and cell styling
+#Ruby does not have any core or standard support for MS Excel file format, however there is "axlsx"
+#ASlsx: Office Open XML spreadsheet generation
+
+#csv is Comma Separated Values, each data cell is sepearated by a comma or semicolon and each line is a row of tabular data, the Ruby Std-lib does support csv files with the built-in CSV class
+
+
+#JSON and XML/HTML
+#JSON: JavaScript Object Notation and formats the data essentially into hashes and sub-hashes but is a file
+#Ruby standard library supports json
+
+#XML: Extensible Markup Language and is a tool for defining domain specific schematics
+#HTML is a standardized format of XML for describing elements on the web page
+#nokogiri is a good open source gem for parsing XML files and web pages
+
+#Exercise done in terminal
+
+
+
+
+
+
+
+
